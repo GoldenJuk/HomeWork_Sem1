@@ -14,7 +14,7 @@ Console.WriteLine();
 Console.WriteLine($"Вот все четные числа в диапазоне от 1 до "  +  number);
 Console.WriteLine();
 
-while (index < number)
+while (number >= index)
     {
         if (index % 2 ==0) Console.Write(index + "  " );
         index++;
