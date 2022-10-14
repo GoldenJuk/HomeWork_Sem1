@@ -12,9 +12,7 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 
 if (number1 > number2) Console.WriteLine("Первое число больше второго");
+
 if (number1 < number2) Console.WriteLine("Второе число больше первого");
 
-else
-{
-    if (number1 == number2)Console.WriteLine("Введенные числа одинаковые");
-}
+if (number1 == number2)Console.WriteLine("Введенные числа одинаковые");
